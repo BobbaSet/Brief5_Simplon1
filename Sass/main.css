@@ -1,0 +1,10 @@
+.header_flex {
+  background-image: url(../ressources/img_3.jpg);
+}
+.header_flex p {
+  position: absolute;
+  background-color: white;
+  text-align: center;
+  bottom: 10%;
+  left: 1200px;
+}
