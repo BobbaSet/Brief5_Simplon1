@@ -94,11 +94,33 @@ footer .foote .sdf ul li a {
   margin-top: 100px;
 }
 
+@media (min-width: 500px) and (max-width: 890px) {
+  .header_flex {
+    background-image: url(../ressources/img_3.jpg);
+    height: 500px;
+  }
+  .header_flex p {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    text-align: center;
+    width: 400px;
+    max-width: 500px;
+    left: 45%;
+    bottom: 55%;
+  }
+
+  #illustration {
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 150px;
+  }
+}
 @media (min-width: 320px) and (max-width: 500px) {
   .header_flex {
     background-image: url(../ressources/img_3.jpg);
     height: 500px;
-    display: flex;
   }
   .header_flex p {
     position: absolute;
