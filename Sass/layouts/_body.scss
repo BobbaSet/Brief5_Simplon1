@@ -1,4 +1,32 @@
-body {
-    width: 1200px;
-    height: auto;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300&display=swap');
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    color:#D05270;
+}
+
+h2, h3, h4, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: grey;
+}
+
+h2, h3, h4{
+    color: indigo;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+}
+
+a:hover{
+        font-weight: bolder;
+        color: indigo;
+    }
+a:visited{
+    color: #D05270;
 }
