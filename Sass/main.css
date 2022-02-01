@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 nav {
   display: flex;
   justify-content: center;
@@ -179,6 +182,37 @@ footer .foote .sdf ul li a {
     margin-top: 15px;
   }
 }
+h1 {
+  font-family: "Abril Fatface", cursive;
+  color: #D05270;
+}
+
+h2, h3, h4, p {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: grey;
+}
+
+h2, h3, h4 {
+  color: indigo;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  color: gray;
+}
+
+a:hover {
+  font-weight: bolder;
+  color: indigo;
+}
+
+a:visited {
+  color: #D05270;
+}
+
 #grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -197,9 +231,6 @@ footer .foote .sdf ul li a {
   border-radius: 5px;
   padding: 3px;
 }
-#grid .grid-items img:hover {
-  filter: opacity(1);
-}
 #grid .grid-items .para_grid {
   z-index: 1;
   position: absolute;
@@ -208,6 +239,9 @@ footer .foote .sdf ul li a {
   margin-left: 10px;
   bottom: 35%;
   border-radius: 3px;
+}
+#grid .grid-items img:hover {
+  filter: opacity(1);
 }
 #grid .grid-items img {
   -o-object-fit: cover;
@@ -247,6 +281,7 @@ footer .foote .sdf ul li a {
        object-fit: cover;
     width: 550px;
     height: 300px;
+    filter: opacity(1);
   }
 
   .article_para {
@@ -281,8 +316,9 @@ footer .foote .sdf ul li a {
   #grid .grid-items img {
     -o-object-fit: cover;
        object-fit: cover;
-    width: 400px;
+    width: 390px;
     height: 300px;
+    filter: opacity(1);
   }
 
   .article_para {
@@ -624,9 +660,6 @@ footer .foote .sdf ul li a {
   border-radius: 5px;
   padding: 3px;
 }
-#grid .grid-items img:hover {
-  filter: opacity(1);
-}
 #grid .grid-items .para_grid {
   z-index: 1;
   position: absolute;
@@ -635,6 +668,9 @@ footer .foote .sdf ul li a {
   margin-left: 10px;
   bottom: 35%;
   border-radius: 3px;
+}
+#grid .grid-items img:hover {
+  filter: opacity(1);
 }
 #grid .grid-items img {
   -o-object-fit: cover;
@@ -674,6 +710,7 @@ footer .foote .sdf ul li a {
        object-fit: cover;
     width: 550px;
     height: 300px;
+    filter: opacity(1);
   }
 
   .article_para {
@@ -708,8 +745,9 @@ footer .foote .sdf ul li a {
   #grid .grid-items img {
     -o-object-fit: cover;
        object-fit: cover;
-    width: 400px;
+    width: 390px;
     height: 300px;
+    filter: opacity(1);
   }
 
   .article_para {
