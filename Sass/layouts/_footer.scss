@@ -1,5 +1,3 @@
-
-
 footer{
     display: grid;
     justify-content: center;
@@ -54,5 +52,45 @@ footer{
         
     }
     
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+    footer{
+    display:fle;
+    justify-content: center;
+    background-color: #efefef;;
+    align-items: center;
+    
+    padding-bottom: 20px;
+    padding: 20px;
+    .foote{ 
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    
+}
+}
+}
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+    footer {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        background-color: #efefef;;
+        align-items: center;
+        .foote{ 
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+        
+    .footer-ul {
+        margin-right: 40px;
+    }
+}
 }
 }
