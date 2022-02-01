@@ -30,6 +30,44 @@
   
 }
 
+@media (min-width: 500px) and (max-width: 890px){
+    #grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 890px;
+        width: 500px;
+        height: auto;
+        gap: 15px;
+        margin: 0 auto;
+        margin-top: 150px;
+        margin-bottom: 100px;
+        
+        .grid-items{
+            position: relative;
+    
+            .para_grid{
+                z-index: 1;
+                position: absolute;
+                background-color: white;
+                padding: 4px;
+                margin-left: 10px;
+                bottom: 35%;
+                border-radius: 3px; 
+            }
+            img{
+                object-fit: cover;
+                width: 550px;
+                height: 300px;
+            }
+        }
+      
+    }
+    
+    .article_para{
+        width: 550px;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 500px){
     #grid{
         display: grid;
