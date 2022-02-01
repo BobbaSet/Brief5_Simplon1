@@ -74,7 +74,7 @@ footer{
 }
 }
 }
-@media screen and (min-width: 300px) and (max-width: 1000px) {
+@media screen and (min-width: 300px) and (max-width: 800px) {
     footer {
         display: grid;
         grid-template-columns: 100%;
@@ -87,7 +87,9 @@ footer{
             width: 100%;
             justify-content: space-between;
             align-items: center;
-        
+        .footer-text {
+            margin-left: 10px;
+        }
     .footer-ul {
         margin-right: 40px;
     }
