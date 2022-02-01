@@ -94,6 +94,105 @@ gap: 15px;
     }
      }
 
+
+@media (min-width: 500px) and (max-width: 890px){
+    .contact-corps {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+        width: 100%;
+        gap: 5%;
+        
+        .formulaire {
+            width: 320px;
+            background-color: whitesmoke;
+            padding-right: 20px;
+            border-radius: 10px;
+            padding-top: 10px;
+            box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.226);
+            form {
+                display: flex;
+                margin-left: 10px;
+                flex-direction: column;
+                gap: 20px;
+                 
+              
+                input[type=text]{
+                
+                    width: 100%;
+                }
+                input[type=email] {
+                    width: 100%;
+                }
+                input[type=tel] {
+                    width: 100%;
+                }
+                #objett {
+                    padding-bottom: 40px;
+                }
+              .contact-envoyer{
+                  display: grid;
+                  
+                input[type=submit] {
+                        justify-self: center;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        margin-bottom: 10px;
+                        width: 20%;
+                                        }
+                                    }
+        }
+    }
+
+    .contact-info {
+        display: grid;
+        grid-template-columns: 100%;
+        width: 350px;
+        background-color: whitesmoke;
+    
+        box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.226);
+         
+        .contact-icons {   
+            display: flex;                                
+            text-transform: uppercase; 
+            gap: 20px;     
+            width: 100%; 
+            justify-content: start; 
+            padding: 0;
+        }
+        .contact-icons ul {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact-icons a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px 5px;
+            text-decoration: none;
+            border-radius: 2px;
+            flex-direction: row;
+        }
+        .twitter {
+            background: #55ACEE;
+            color: white; 
+            width: 100px;
+        }
+        .linkedin {
+            background: #007bb5;
+            color: white; 
+            width: 100px;
+        }
+        .medium {
+                background: #000000;
+                color: white;
+                width: 100px;
+        }
+         }
+    }
+}
+
 @media (min-width: 320px) and (max-width: 500px){
     .contact-corps {
         display: grid;
