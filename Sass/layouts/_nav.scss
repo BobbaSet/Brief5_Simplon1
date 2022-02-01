@@ -22,6 +22,16 @@ nav {
             }
             a{
                 text-decoration: none;
+                font-family: 'Montserrat', sans-serif;
+                color: gray;
+            }
+            
+            a:hover{
+                    font-weight: bolder;
+                    color: indigo;
+                }
+            a:visited{
+                color: #D05270;
             }
         }
         #hamburger{
@@ -67,7 +77,9 @@ nav {
     ul li{
         height: 30px;
         margin: 0px;
+        
     }
+    
     #hamburger{
         display: block;
        

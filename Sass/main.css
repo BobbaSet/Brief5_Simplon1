@@ -25,6 +25,15 @@ nav .container ul li {
 }
 nav .container ul a {
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: gray;
+}
+nav .container ul a:hover {
+  font-weight: bolder;
+  color: indigo;
+}
+nav .container ul a:visited {
+  color: #D05270;
 }
 nav .container #hamburger {
   font-size: 50px;
@@ -65,7 +74,6 @@ nav .container #hamburger {
   }
   nav .container ul li {
     height: 30px;
-    border: 1px #2b6a03 solid;
     margin: 0px;
   }
   nav .container #hamburger {
@@ -243,20 +251,6 @@ p {
 
 h2, h3, h4 {
   color: indigo;
-}
-
-a {
-  font-family: "Montserrat", sans-serif;
-  color: gray;
-}
-
-a:hover {
-  font-weight: bolder;
-  color: indigo;
-}
-
-a:visited {
-  color: #D05270;
 }
 
 #grid {
