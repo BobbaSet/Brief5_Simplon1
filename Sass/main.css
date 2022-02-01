@@ -172,7 +172,7 @@ footer .foote .sdf ul li a {
   width: 380px;
   max-width: 1200px;
   left: 60%;
-  bottom: 48%;
+  bottom: 45%;
 }
 
 #illustration {
@@ -195,7 +195,7 @@ footer .foote .sdf ul li a {
     width: 400px;
     max-width: 500px;
     left: 45%;
-    bottom: 55%;
+    bottom: 50%;
   }
 
   #illustration {
@@ -218,14 +218,14 @@ footer .foote .sdf ul li a {
     width: 400px;
     max-width: 500px;
     left: 2%;
-    bottom: 35%;
+    bottom: 32%;
   }
 
   #illustration {
     width: 200px;
     height: 200px;
     margin-left: 100px;
-    margin-top: 15px;
+    margin-top: 0px;
   }
 }
 h1 {
