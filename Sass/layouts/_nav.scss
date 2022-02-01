@@ -14,6 +14,8 @@ nav {
         ul{
             display: flex;
             gap: 10px;
+            flex-direction: row;
+            
             li{
                 list-style: none;
 
@@ -22,5 +24,56 @@ nav {
                 text-decoration: none;
             }
         }
+        #hamburger{
+            font-size: 50px;
+             cursor: pointer;
+            display: none;
+        }
     }
 }
+@media screen  and (max-width:640px) {
+
+    
+    nav {
+        display: flex;
+        justify-content: center;
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;    
+
+     ul{
+        display: none;
+        padding: 0px;
+    }
+
+    .menu_active{
+        display: flex;
+        z-index: 10000;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        text-align: center;
+        background-color: white;
+        border: 1px black solid;
+        top: 54px;
+        right: 50px;
+        width: 130px;
+        height: 110px;
+        border-radius: 10px;
+    }
+    ul li{
+        height: 30px;
+        border: 1px rgb(43, 106, 3) solid;
+        margin: 0px;
+    }
+    #hamburger{
+        display: block;
+       
+              }
+  }
+}
+}
+   
