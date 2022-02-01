@@ -304,7 +304,6 @@ a:visited {
 #grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   max-width: 1200px;
   width: 1200px;
@@ -354,7 +353,6 @@ a:visited {
   #grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
     max-width: 890px;
     width: 500px;
@@ -393,7 +391,6 @@ a:visited {
   #grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
     max-width: 500px;
     width: 400px;
@@ -571,7 +568,6 @@ a:visited {
   .contact-corps {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     width: 100%;
     gap: 5%;
@@ -692,7 +688,6 @@ a:visited {
   .contact-corps {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
     width: 100%;
     gap: 5%;
@@ -855,7 +850,6 @@ a:visited {
 #grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   max-width: 1200px;
   width: 1200px;
@@ -905,7 +899,6 @@ a:visited {
   #grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
     max-width: 890px;
     width: 500px;
@@ -943,8 +936,6 @@ a:visited {
 @media (min-width: 320px) and (max-width: 500px) {
   #grid {
     display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
     max-width: 500px;
     width: 400px;
