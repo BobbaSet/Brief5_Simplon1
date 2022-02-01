@@ -218,7 +218,7 @@ footer .foote .sdf ul li a {
     height: auto;
     gap: 15px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 100px;
   }
   #grid .grid-items {
@@ -255,6 +255,7 @@ footer .foote .sdf ul li a {
     margin: 0 auto;
     margin-top: 150px;
     margin-bottom: 100px;
+    border: 1px solid black;
   }
   #grid .grid-items {
     position: relative;
@@ -635,7 +636,7 @@ footer .foote .sdf ul li a {
     height: auto;
     gap: 15px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 100px;
   }
   #grid .grid-items {
@@ -672,6 +673,7 @@ footer .foote .sdf ul li a {
     margin: 0 auto;
     margin-top: 150px;
     margin-bottom: 100px;
+    border: 1px solid black;
   }
   #grid .grid-items {
     position: relative;
