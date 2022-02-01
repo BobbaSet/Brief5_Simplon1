@@ -192,6 +192,13 @@ footer .foote .sdf ul li a {
 }
 #grid .grid-items {
   position: relative;
+  border: 2px solid black;
+  box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 3px;
+}
+#grid .grid-items img:hover {
+  filter: opacity(1);
 }
 #grid .grid-items .para_grid {
   z-index: 1;
@@ -207,6 +214,8 @@ footer .foote .sdf ul li a {
      object-fit: cover;
   width: 590px;
   height: 300px;
+  filter: opacity(0.55);
+  transition: 2s;
 }
 
 @media (min-width: 500px) and (max-width: 890px) {
@@ -610,6 +619,13 @@ footer .foote .sdf ul li a {
 }
 #grid .grid-items {
   position: relative;
+  border: 2px solid black;
+  box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 3px;
+}
+#grid .grid-items img:hover {
+  filter: opacity(1);
 }
 #grid .grid-items .para_grid {
   z-index: 1;
@@ -625,6 +641,8 @@ footer .foote .sdf ul li a {
      object-fit: cover;
   width: 590px;
   height: 300px;
+  filter: opacity(0.55);
+  transition: 2s;
 }
 
 @media (min-width: 500px) and (max-width: 890px) {
