@@ -20,3 +20,52 @@
         margin-left: 190px;
         margin-top: 100px;
     }
+
+@media (min-width: 500px) and (max-width: 890px){
+    .header_flex{
+        background-image: url(../ressources/img_3.jpg);
+        height: 500px;
+
+        p{
+            position: absolute;
+            z-index: 1;
+            background-color: white;
+            text-align: center;
+            width: 400px;
+            max-width: 500px;
+            left: 45%;
+            bottom: 55%;
+        }    
+    }
+    
+    #illustration{
+            width: 200px;
+            height: 200px;
+            margin-left: 100px;
+            margin-top: 150px;
+        }
+}
+@media (min-width: 320px) and (max-width: 500px){
+    .header_flex{
+        background-image: url(../ressources/img_3.jpg);
+        height: 500px;
+    
+        p{
+            position: absolute;
+            z-index: 1;
+            background-color: white;
+            text-align: center;
+            width: 400px;
+            max-width: 500px;
+            left: 2%;
+            bottom: 35%;
+        }    
+    }
+    
+    #illustration{
+            width: 200px;
+            height: 200px;
+            margin-left: 100px;
+            margin-top: 15px;
+        }
+}
