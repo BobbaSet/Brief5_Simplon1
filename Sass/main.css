@@ -249,7 +249,7 @@ footer .foote .sdf ul li a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     max-width: 500px;
-    width: 500px;
+    width: 400px;
     height: auto;
     gap: 15px;
     margin: 0 auto;
@@ -666,7 +666,7 @@ footer .foote .sdf ul li a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     max-width: 500px;
-    width: 500px;
+    width: 400px;
     height: auto;
     gap: 15px;
     margin: 0 auto;
