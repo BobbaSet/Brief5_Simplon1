@@ -1,0 +1,95 @@
+.contact-corps {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    width: 60%;
+    gap: 5%;   
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    .formulaire {
+        background-color: whitesmoke;
+        padding-right: 20px;
+        border-radius: 10px;
+        padding-top: 10px;
+        box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.226);
+        form {
+            display: flex;
+            margin-left: 10px;
+            flex-direction: column;
+            gap: 20px;
+             
+          
+            input[type=text]{
+            
+                width: 100%;
+            }
+            input[type=email] {
+                width: 100%;
+            }
+            input[type=tel] {
+                width: 100%;
+            }
+            #objett {
+                padding-bottom: 40px;
+            }
+          .contact-envoyer{
+              display: grid;
+              
+            input[type=submit] {
+                    justify-self: center;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    margin-bottom: 10px;
+                    width: 20%;
+                                    }
+                                }
+    }
+}
+    }
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.226);
+     
+    .contact-icons {   
+        display: flex;                                
+        text-transform: uppercase; 
+        gap: 20px; 
+        width: 100%; 
+        justify-content: start; 
+        padding: 0;
+    }
+    .contact-icons ul {
+        display: flex;
+    flex-direction: row;
+        list-style-type: none;
+        padding: 0;
+gap: 15px;
+    }
+    .contact-icons a {
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        border-radius: 2px;
+        flex-direction: row;
+    }
+    .twitter {
+        background: #55ACEE;
+        color: white; }
+    .linkedin {
+        background: #007bb5;
+        color: white; }
+    .medium {
+            background: #000000;
+            color: white;
+    }
+     }
