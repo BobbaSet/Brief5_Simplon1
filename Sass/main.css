@@ -105,16 +105,26 @@ nav .container #hamburger {
     position: absolute;
     text-align: center;
     background-color: white;
-    border: 1px black solid;
     top: 54px;
     right: 50px;
     width: 130px;
     height: 110px;
     border-radius: 10px;
   }
-  nav .container ul li {
+  nav .container .menu_active ul li {
     height: 30px;
     margin: 0px;
+    list-style: none;
+    color: #d05270;
+  }
+  nav .container .menu_active ul li a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: gray;
+  }
+  nav .container .menu_active ul li a:hover {
+    font-weight: bolder;
+    color: indigo;
   }
   nav .container #hamburger {
     display: block;
@@ -499,7 +509,7 @@ h2, h3, h4 {
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
-  width: 60%;
+  width: 62%;
   gap: 5%;
   margin: 0 auto;
   padding-top: 50px;
